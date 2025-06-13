@@ -4,3 +4,5 @@
 A basic setup with syntax highlighting, relative line numbers etc...
 * .vimrc
 
+### Gentoo -- Asus desktop ###
+
