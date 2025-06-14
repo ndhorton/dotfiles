@@ -1,0 +1,29 @@
+[window]
+
+startup_mode = "Windowed" # "Windowed" | "Maximized" | "Fullscreen"
+
+dynamic_title = true
+
+opacity = 1.0
+blur = false # true | false
+
+dynamic_padding = true
+padding.x = 0
+padding.y = 0
+
+decorations = "Full" # "Full" | "None"
+# decorations_theme_variant = "None" # "None" | "Dark" | "Light"
+
+[scrolling]
+
+history = 10000	# maximum 100000
+multiplier = 3	# numer of lines scrolled for every input scroll increment
+
+[font]
+
+normal.family = "JetBrains Mono Nerd Font"
+bold.family = "JetBrains Mono Nerd Font"
+italic.family = "JetBrains Mono Nerd Font"
+bold_italic.family = "JetBrains Mono Nerd Font"
+
+size = 15.0
