@@ -12,7 +12,7 @@ padding.x = 0
 padding.y = 0
 
 decorations = "Full" # "Full" | "None"
-# decorations_theme_variant = "None" # "None" | "Dark" | "Light"
+decorations_theme_variant = "None" # "None" | "Dark" | "Light"
 
 [scrolling]
 
@@ -27,3 +27,25 @@ italic.family = "JetBrains Mono Nerd Font"
 bold_italic.family = "JetBrains Mono Nerd Font"
 
 size = 15.0
+
+[cursor]
+
+style.shape = "Beam"
+style.blinking = "On"
+vi_mode_style.shape = "block"
+vi_mode_style.blinking = "On"
+blink_interval = 750
+blink_timeout = 5 # 0 for off
+unfocused_hollow = true
+thickness = 0.15
+
+[terminal]
+
+shell.program = "/bin/bash"
+shell.args = []
+
+[keyboard]
+
+bindings = [
+	{ key = "F11", action = "ToggleFullScreen" }
+]
